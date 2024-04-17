@@ -10,17 +10,9 @@ jobs:
             - name: Checkout Repo
               uses: actions/checkout@v4
 
-            - name: Install Cowsay Program
-              run: sudo apt install cowsay -y
-            
-            - name: Execute Cowsay CMD
-              run: cowsay -f dragon "Fire and Blood, Targaryen House" >> dragon.txt
-
-            - name: Test File Exists
-              run: grep -i "Fire" dragon.txt
-
-            - name: Read File
-              run: cat dragon.txt
-
-            - name: List Repo Files
+            - name: List files 
               run: ls -lha
+
+            - name: Executing shell script
+              run: ./ascii-script.sh
+            
