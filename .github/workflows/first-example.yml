@@ -9,11 +9,20 @@ jobs:
             - name: Checkout Repo
               uses: actions/checkout@v4
 
-            - name: Welcome message
-              run: echo "My first GitHub Actions Job"
+            - name: List and Read file
+              run: |
+                echo "Multi-Line commands and Executing Third Party Libraries"
+                ls -ltra
+                cat README.md
+            
+            - name: Generate ASCII Artwork
+              run: cowsay -f dragon "Fire and Blood, Targaryen House" >> dragon.txt
 
-            - name: List files
-              run: ls
 
-            - name: Read file
-              run: cat README.md
+
+
+            # - name: List files
+            #   run: ls
+
+            # - name: Read file
+            #   run: cat README.md
