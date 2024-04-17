@@ -17,7 +17,7 @@ jobs:
               run: cowsay -f dragon "Fire and Blood, Targaryen House" >> dragon.txt
 
             - name: Test File Exists
-              run: grep -i "dragon" dragon.txt
+              run: grep -i "Fire" dragon.txt
 
             - name: Read File
               run: cat dragon.txt
