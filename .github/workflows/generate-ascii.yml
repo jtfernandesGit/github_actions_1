@@ -14,5 +14,7 @@ jobs:
               run: ls -lha
 
             - name: Executing shell script
-              run: ./ascii-script.sh
+              run: |
+                chmod +x ascii-script.sh
+                ./ascii-script.sh
             
