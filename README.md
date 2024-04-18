@@ -1,5 +1,5 @@
 # Exploring GitHub Actions
-[![My First Workflow](https://github.com/jtfernandesGit/github_actions_1/actions/workflows/first-example.yml/badge.svg)](https://github.com/jtfernandesGit/github_actions_1/actions/workflows/first-example.yml)
+[![Multiple Jobs](https://github.com/jtfernandesGit/github_actions_1/actions/workflows/generate-ascii.yml/badge.svg)](https://github.com/jtfernandesGit/github_actions_1/actions/workflows/generate-ascii.yml)
 
 
 Learning GitHub Actions
